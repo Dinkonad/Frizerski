@@ -1,0 +1,36 @@
+:root {
+  /* Base palette — a warm, dim den carved in pine-green stone */
+  --cave-black: #0a0d0b;
+  --cave-green-950: #0e1613;
+  --cave-green-900: #131f1a;
+  --cave-green-800: #1b2b24;
+  --cave-green-700: #26392f;
+  --line: rgba(239, 231, 216, 0.1);
+  --line-strong: rgba(239, 231, 216, 0.2);
+
+  --bone: #f1e9d8;
+  --bone-dim: #b7ae9c;
+  --bone-faint: #837c6d;
+
+  --brass: #c7a04a;
+  --brass-bright: #e6c373;
+  --ember: #a6512c;
+  --ember-bright: #c66a3f;
+
+  /* Type */
+  --font-display: 'Fraunces', 'Iowan Old Style', serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mark: 'Bebas Neue', sans-serif;
+
+  /* Layout */
+  --container: 1180px;
+  --gutter: 24px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --gutter: 20px;
+  }
+}
